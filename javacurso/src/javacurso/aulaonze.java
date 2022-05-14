@@ -28,9 +28,12 @@ public class aulaonze {
 		System.out.println(x);
 		
 		float v = 8.9f;
-		int ar = (int) Math.round(v);
+		int ar = (int) Math.round(v); // Math.ceil, Math.floor
 		System.out.println(ar);
 		
+		double ale = Math.random();
+		int n = (int) (5 + ale * (10 - 5));
+		System.out.println(n);
 		
 		
 
